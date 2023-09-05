@@ -1,0 +1,60 @@
+.banner video{
+    width: 100%;
+    pointer-events: none;
+    
+}
+
+h1{
+    color: rgb(216, 213, 213);
+}
+
+.banner-content{
+    margin-top: -30rem;
+    margin-bottom: 20rem;
+    margin-left: 5rem;
+    
+}
+button{
+    background-color: rgb(65, 160, 152);
+    color: white;
+    box-shadow: inset;
+    cursor: pointer;
+    
+    
+}
+p{
+    color: lightgray;
+    width: 450px;
+}
+
+@media (max-width:700px){
+
+    .banner{
+        height: 20rem;
+    }
+    h1{
+        font-size: 1rem;
+        margin-left: 1rem;
+        padding-top: 7rem;
+    }
+    .banner-content{
+        margin-top: -16rem;
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        
+    }
+    .banner-desc p{
+        font-size:xx-small;
+        width: 20rem;
+    }
+    .banner_buttons .desc{
+        font-size: 0.5rem;
+        margin-left: -2.2rem;
+        margin-top: -1.2rem;   
+    }
+    button{
+        font-size: 0.5rem;
+        margin-top: -2.25rem;
+        margin-left: 0rem;
+    }
+}
